@@ -1,13 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    flex-basis: auto;
 }
 
 body{
     background-attachment: fixed;
     background-image: linear-gradient(to top, #402915, #734C29 , #A67449 ,  #F2CEA2);
-
 }
 
 #barra{
@@ -15,6 +13,9 @@ body{
     right: 10px;
     top: 25px;
     cursor: pointer;
+    display: inline;
+    display: flex;
+
 }
 
 .cabeca{
@@ -27,14 +28,15 @@ body{
 
 .menu{
     background-color: aqua;
-    padding: 300px;
-    height: 200px;
-    width: 200px;
+    border: 2px solid red;
+    height: 500px;
+    width: 1000px;
     margin: auto;
-    top: 200px;
-    text-align: center;
     font-family: cursive;
     font-size: 30px;
-    
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
