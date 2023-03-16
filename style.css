@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-basis: auto;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, #402915, #734C29 , #A67449 ,  #F2CEA2);
+
+}
+
+#barra{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.cabeca{
+    font-family: cursive;
+    font-size: 30px;
+    font-variant: small-caps;
+    text-align: center;
+    flex-basis: auto;
+}
+
+.menu{
+    background-color: aqua;
+    padding: 300px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    top: 200px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
+
