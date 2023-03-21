@@ -6,6 +6,9 @@
 body{
     background-attachment: fixed;
     background-image: linear-gradient(to top, #402915, #734C29 , #A67449 ,  #F2CEA2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #barra{
@@ -13,7 +16,6 @@ body{
     right: 10px;
     top: 25px;
     cursor: pointer;
-    display: inline;
     display: flex;
 
 }
@@ -23,20 +25,29 @@ body{
     font-size: 30px;
     font-variant: small-caps;
     text-align: center;
-    flex-basis: auto;
 }
 
 .menu{
-    background-color: aqua;
-    border: 2px solid red;
-    height: 500px;
-    width: 1000px;
+    background-color: aliceblue;
+    padding: 200px;
     margin: auto;
-    font-family: cursive;
-    font-size: 30px;
-    border-radius: 20px;
-    display: flex;
+    width: 200px;
+    height: 200px;
+    display: grid;
     text-align: center;
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    border-radius: 20px;
     justify-content: center;
+    align-content: center;
+    top: 100px;
+    align-items: center;
 }
 
+.conteudo{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+}
